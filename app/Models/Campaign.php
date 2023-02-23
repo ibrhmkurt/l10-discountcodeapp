@@ -2,15 +2,18 @@
 
 namespace App\Models;
 
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Code extends Model
+
+
+class Campaign extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'discount_code',
+        'used_code',
     ];
 
 }
